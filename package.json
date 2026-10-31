@@ -1,0 +1,23 @@
+{
+  "name": "store-22",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimalist, multilingual shoe store built with vanilla JavaScript.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.js"
+  },
+  "overrides": {
+    "electron-to-chromium": "1.5.472",
+    "baseline-browser-mapping": "2.11.34"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.3.5"
+  }
+}
